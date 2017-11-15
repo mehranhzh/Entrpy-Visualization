@@ -1,0 +1,20 @@
+CpE/NIS 591 WS: Introduction to Multimedia Networking
+Spring 2015
+Final Examination: 60 points
+Due back on: April 27, 2015, 11:59 PM
+1. [10 points] Assume p = 5, q = 11, e = 7, and d = 23. The given message is “RSA”, and it is represented numerically as 18, 19, and 1. Use RSA algorithm to encrypt this message and decrypt the ciphertexts.
+2. [10 points] An analog signal has a dynamic range of 40 dB. Determine the magnitude of the quantization noise relative to the minimum signal amplitude if the quantizer uses,
+a) 6 bits
+b) 10 bits
+You assume that the maximum noise is ½ of a quantization step.
+Comment on whether the level of quantization noise is acceptable or not.
+3. [10 points] Express the following 32-bit integer as a binary and as a decimal IP address: 2215445022
+4. [10 points] Derive the scaling factors used for both the U and V (as used in PAL) and I and Q (as used in NTSC) color difference signals in terms of the three R, G, B colour signals, knowing that for
+PAL : Y = 0.299R + 0.587G + 0.114B
+U = 0.493 (B – Y) and V = 0.877 (R – Y)
+NTSC Y = 0.299R + 0.587G + 0.114B
+I = 0.74 (R – Y) – 0.27 (B – Y)
+Q = 0.48 (R – Y) + 0.41 (B – Y)
+5. [10 points] Assume that we want to use text compression techniques to compress this exam. Find the iteration number of each character in the text body of this exam (character distribution). How many different characters are used in this exam? What is the entropy of the text in this exam? Find a Huffman code for the character distribution in this exam. What is the average character code length for the Huffman coding?
+Can you find a coding with shorter average code length? If so, can you explain the code and if not, can you elaborate your answer?
+6. [10 points] Express the JPEG baseline with an 8*8 image block matrix example. You should show all the intermediate results step by step.
